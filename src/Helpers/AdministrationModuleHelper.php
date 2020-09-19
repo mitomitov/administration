@@ -63,6 +63,7 @@ class AdministrationModuleHelper {
     }
 
     public static function moduleSlugs() {
+        #Module::enable('players');
         $modules = Module::enabled();
         $module_slugs = [];
 

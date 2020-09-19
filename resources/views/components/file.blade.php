@@ -36,6 +36,9 @@
                     <span class="fileinput-exists">
                         {{ trans('administration::admin.change') }}
                 </span>
+@php
+    //var_dump(new \ReflectionClass('Form'));
+@endphp
                 {!!  Form::file($name, $options['attr'])  !!}
 
             </span>
